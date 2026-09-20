@@ -21,7 +21,7 @@ OP13HyperOSFix 是面向一加13移植澎湃系统的 LSPosed 综合修复模块
 
 ## 编译
 
-需要 JDK 17、Android SDK 37、Build Tools 37.0.0 和 NDK 28.2.13676358。Gradle Wrapper 已随仓库提供，版本固定为 9.3.1。
+需要 JDK 17、Android SDK 37 和 NDK 28.2.13676358。Build Tools 由 Android Gradle Plugin 选择；Gradle Wrapper 已随仓库提供，版本固定为 9.3.1。
 
 先配置 `JAVA_HOME` 和 `ANDROID_HOME`，然后在仓库根目录执行：
 
@@ -63,6 +63,7 @@ APK 构建会编译 `Android.mk` 声明的原生目标，其余随包程序和 K
 ## 文档与来源
 
 - [历史综合修复记录](一加13澎湃OS4综合修复方法.md)
+- [独立构建验证记录](docs/构建验证记录.md)
 - [钱包合并审计](docs/COS_WALLET_FIX_v0.9.4_MERGE_AUDIT.md)
 - [第三方来源说明](THIRD_PARTY_NOTICES.md)
 - [许可证](LICENSE)
