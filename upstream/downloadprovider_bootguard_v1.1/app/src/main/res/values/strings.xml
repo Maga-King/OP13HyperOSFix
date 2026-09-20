@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DownloadProvider 启动自杀拦截</string>
+    <string name="xposed_desc">仅作用于小米 DownloadProvider：关闭 BootHelper 启动空闲自杀，不修改 APK，不影响真正的崩溃处理。</string>
+</resources>
+

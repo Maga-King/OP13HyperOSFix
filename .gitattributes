@@ -1,0 +1,16 @@
+* text=auto
+*.sh text eol=lf
+gradlew text eol=lf
+*.bat text eol=crlf
+*.png binary
+*.bin binary
+*.so binary
+*.ko binary
+*.jar binary
+*.aar binary
+*.flac binary
+*.ogg binary
+app/src/main/assets/SysUIFPfix binary
+app/src/main/assets/f4_wake_bin binary
+app/src/main/assets/root/rtp_root_helper binary
+app/src/main/res/raw/op13_probe_sampler binary

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">一加13澎湃综合修复</string>
+    <string name="xposed_desc">一加13移植澎湃OS4的指纹、ColorOS钱包与eID、传感器、AOD、MTP、LHDC、通知、换机云备份与完整RTP震动增强</string>
+    <string name="title">一加13澎湃OS4综合修复</string>
+    <string name="subtitle">启用 LSPosed 后开机自动检测 ROOT 并启动修复组件</string>
+    <string name="install_root">授权 ROOT 并重新启动</string>
+    <string name="refresh_status">检测 ROOT 与运行状态</string>
+    <string name="working">正在执行…</string>
+    <string name="idle">正在检测 ROOT 和修复组件状态。</string>
+    <string name="root_missing_toast">未检测到 ROOT 授权，修复组件未启动</string>
+</resources>

@@ -1,0 +1,281 @@
+[
+  {
+    "effect_id": 88,
+    "source": "OnePlus def:2",
+    "reason": "launcher selection: short factory click",
+    "old_bytes": 381,
+    "old_sha256": "ADB82E2D098FFE9F10EB753A2C06A4373876C125CD3C0A564D732EECA03FD0C3",
+    "new_bytes": 393,
+    "new_sha256": "F4E721BB4D7EE42EB7C6B8F1C997C5DBFB39DEE2315ECF05223D7FD8905F5DA5"
+  },
+  {
+    "effect_id": 104,
+    "source": "OnePlus def:100",
+    "reason": "door open: factory two-stage motion",
+    "old_bytes": 4255,
+    "old_sha256": "F30BB40B9D3274C21B14CB44B94B361A05CF50B69239902B43A316636F8D3CA0",
+    "new_bytes": 4264,
+    "new_sha256": "F3D09D3908DA0AF7A3B9356B60249AA7840E24E6342939C828FDFDE4C255309F"
+  },
+  {
+    "effect_id": 106,
+    "source": "OnePlus def:47",
+    "reason": "scene step: factory four-pulse cadence",
+    "old_bytes": 1622,
+    "old_sha256": "EBEDCDEA1174638AFA9D818C4F3F1B85849784905DF2336350C3F64A39D61624",
+    "new_bytes": 2001,
+    "new_sha256": "45F14A8B85C3DDAD53DC8A481F79558A95DD3FB5DA55645D5467459F981A7D82"
+  },
+  {
+    "effect_id": 114,
+    "source": "OnePlus def:365",
+    "reason": "punch: factory long three-pulse impact",
+    "old_bytes": 3948,
+    "old_sha256": "B9FC3BFCC4F4BE335665FC934962F7A42EA64255BF5A7A96F1BF3ED0F700CE5A",
+    "new_bytes": 4759,
+    "new_sha256": "CAE9586396BF6342B93B39FA70EF9D072C50FD26DFC924ADC3CABBDF1A1B6656"
+  },
+  {
+    "effect_id": 115,
+    "source": "OnePlus def:61",
+    "reason": "pan: same-duration factory three-pulse motion",
+    "old_bytes": 3628,
+    "old_sha256": "F70F4BB9CD48740FD927FF22AFF3BFF367DC49E7FE56666697C13AC3713AD0A1",
+    "new_bytes": 3628,
+    "new_sha256": "941B9088DEFFCF1FF40B43F25D435B5CEB555F8DAF58608E780C9DF9D2F528FB"
+  },
+  {
+    "effect_id": 118,
+    "source": "OnePlus def:5",
+    "reason": "scene jump: full fingerprint-success envelope",
+    "old_bytes": 1519,
+    "old_sha256": "A8B027450E1976DBCCA7DECC118EA2F443334535C7E7C1C6DF71965697902265",
+    "new_bytes": 1549,
+    "new_sha256": "FB196ED30A1A6908186181C98298F2E26AF281EDC777184EC2D87A0FF9FF418E"
+  },
+  {
+    "effect_id": 132,
+    "source": "OnePlus def:47",
+    "reason": "QBZ: factory multi-pulse cadence",
+    "old_bytes": 1835,
+    "old_sha256": "D7896D7BCCF8E4CB26A8D7EEEF25968C6DDF1467C82AECBBFD0A8DD59D1ED858",
+    "new_bytes": 2001,
+    "new_sha256": "45F14A8B85C3DDAD53DC8A481F79558A95DD3FB5DA55645D5467459F981A7D82"
+  },
+  {
+    "effect_id": 137,
+    "source": "OnePlus soft:309",
+    "reason": "P18C: soft factory impulse",
+    "old_bytes": 852,
+    "old_sha256": "5E1F74C3B32C592760E4AEEFBA2319E65DBE8954CE297BDE0F0F4E9C9506CF67",
+    "new_bytes": 779,
+    "new_sha256": "989708372781F6A9F0472CBD269F5A28915F43ED766D4C76CE57067C2F5517CE"
+  },
+  {
+    "effect_id": 162,
+    "source": "d_162_135hz_deep.bin",
+    "reason": "approved deep pull pulse",
+    "old_bytes": 735,
+    "old_sha256": "42111501A3CB72DBE2189AE02AF94F9B81B5915444316629B02D640543109414",
+    "new_bytes": 432,
+    "new_sha256": "E4D24CE693304B33C25D4260AF5E208B4DEC14A06370CEF954B0CDE7AA924541"
+  },
+  {
+    "effect_id": 163,
+    "source": "e_163_fingerprint_release.bin",
+    "reason": "approved effect-5 release pulse",
+    "old_bytes": 559,
+    "old_sha256": "996EEF99DA6602FC6CBAD469AA3B66C0885755570C0805F89C29D2EBE591195C",
+    "new_bytes": 496,
+    "new_sha256": "82651E1B520104AB14A508DFB0B8419BFA4D479B54EC6FD45966726F1F6BAC62"
+  },
+  {
+    "effect_id": 166,
+    "source": "OnePlus def:2",
+    "reason": "neutral feedback: short factory click",
+    "old_bytes": 381,
+    "old_sha256": "38858C652311918FAC8A72B8C7E1A0109C48C0E36C05BC10CBC42EE930E4ACCB",
+    "new_bytes": 393,
+    "new_sha256": "F4E721BB4D7EE42EB7C6B8F1C997C5DBFB39DEE2315ECF05223D7FD8905F5DA5"
+  },
+  {
+    "effect_id": 168,
+    "source": "OnePlus soft:309",
+    "reason": "fingerprint record: soft factory confirmation",
+    "old_bytes": 733,
+    "old_sha256": "BE6999B09575A5D94467A902F81FBB7D94888CEF524243E068AC63FCBDB9546D",
+    "new_bytes": 779,
+    "new_sha256": "989708372781F6A9F0472CBD269F5A28915F43ED766D4C76CE57067C2F5517CE"
+  },
+  {
+    "effect_id": 169,
+    "source": "OnePlus def:5",
+    "reason": "lockdown: full fingerprint-success envelope",
+    "old_bytes": 1762,
+    "old_sha256": "C7789A0A5EFEDFC225CE571DB15F814F616395C1BE344FED3A426C7EDF67EA65",
+    "new_bytes": 1549,
+    "new_sha256": "FB196ED30A1A6908186181C98298F2E26AF281EDC777184EC2D87A0FF9FF418E"
+  },
+  {
+    "effect_id": 174,
+    "source": "OnePlus def:318",
+    "reason": "negative button: preserve two-pulse structure",
+    "old_bytes": 3332,
+    "old_sha256": "D9269B43240FAD221415410B61D4761BBD339ECA778D8029401A81C61CD0822F",
+    "new_bytes": 3368,
+    "new_sha256": "5109B2C867E4FD841E42536D8F03D036F53E4EE2D716FDF6B2D3A292B88B4BB2"
+  },
+  {
+    "effect_id": 175,
+    "source": "OnePlus soft:363",
+    "reason": "button: soft factory single motion",
+    "old_bytes": 3530,
+    "old_sha256": "480F6DC99E8BFA643937A8912ACB9FB4DC0DBD2979235BFFCBA5D156AD8F972D",
+    "new_bytes": 3533,
+    "new_sha256": "C0FB5B7C2266E0B07ABF6C5ACD6538BB323B8C6266940616207BBD78FFE3FF02"
+  },
+  {
+    "effect_id": 178,
+    "source": "OnePlus def:303",
+    "reason": "clock unit: short factory tick",
+    "old_bytes": 293,
+    "old_sha256": "B16D0990C863F773E5FEDE1717972107970066BD048484D919871F47AB6932AB",
+    "new_bytes": 297,
+    "new_sha256": "66313E183BD79BF09F5CB9D1D53A3A5BC2A45EF176C6A26EFD910EC9783F7CE0"
+  },
+  {
+    "effect_id": 180,
+    "source": "OnePlus soft:364",
+    "reason": "high key: soft factory single motion",
+    "old_bytes": 3530,
+    "old_sha256": "480F6DC99E8BFA643937A8912ACB9FB4DC0DBD2979235BFFCBA5D156AD8F972D",
+    "new_bytes": 3533,
+    "new_sha256": "C0FB5B7C2266E0B07ABF6C5ACD6538BB323B8C6266940616207BBD78FFE3FF02"
+  },
+  {
+    "effect_id": 181,
+    "source": "OnePlus def:310",
+    "reason": "key unit: stronger short factory tick",
+    "old_bytes": 312,
+    "old_sha256": "866212D1FEA1D62A4AB1122FD7CA2BBDC16A785382F502172B8659B724A10019",
+    "new_bytes": 374,
+    "new_sha256": "C7CA436E0A710352CAEDC6F6A72A67F8A89489AEE6D9DB565EE793360FF5F309"
+  },
+  {
+    "effect_id": 185,
+    "source": "OnePlus def:365",
+    "reason": "popup: factory long three-pulse motion",
+    "old_bytes": 4022,
+    "old_sha256": "3B73CA1089EE2689ABA09BA8700AFBF0AE32E3E33FE947260D7A8310BEDA3EE9",
+    "new_bytes": 4759,
+    "new_sha256": "CAE9586396BF6342B93B39FA70EF9D072C50FD26DFC924ADC3CABBDF1A1B6656"
+  },
+  {
+    "effect_id": 187,
+    "source": "OnePlus def:54",
+    "reason": "switch: stronger factory sweep",
+    "old_bytes": 2079,
+    "old_sha256": "1D66D47D9342A9BCAC38A9EF9579C49746DC2E7202D310B6AB0725FD2B592E6D",
+    "new_bytes": 1919,
+    "new_sha256": "5E012B9FCB4850DA7973D86D408D20C1BFC9CD4057F20C60FF25C1A8CED3A58E"
+  },
+  {
+    "effect_id": 188,
+    "source": "OnePlus def:11",
+    "reason": "tab: factory release impulse",
+    "old_bytes": 602,
+    "old_sha256": "3E92889BA4AC25FED3DB94CDA2BB62D59155ADD58F5B97375DE908C0590AFEDF",
+    "new_bytes": 680,
+    "new_sha256": "B992BA3646A1CEBE8424D4C4501E8B2EC0C01070FF4973BE2F2E6EAFB9C864E4"
+  },
+  {
+    "effect_id": 202,
+    "source": "OnePlus soft:1",
+    "reason": "bottom boundary: weaker factory boundary",
+    "old_bytes": 825,
+    "old_sha256": "EF42F4F927B6A19AC2DA277EA38C1519ED38BD08FAF308865FBA66DC95D769E8",
+    "new_bytes": 803,
+    "new_sha256": "034A3B46342505F37020DE05DE6AFB84D30795AEC3E7363E1774905D4CC84106"
+  },
+  {
+    "effect_id": 203,
+    "source": "OnePlus soft:309",
+    "reason": "top boundary: stronger factory boundary",
+    "old_bytes": 825,
+    "old_sha256": "FA0957206E569B32BBD0E1DDAF5CAEE30F48BDC8C0E086F609ACE4EB5CCE88EB",
+    "new_bytes": 779,
+    "new_sha256": "989708372781F6A9F0472CBD269F5A28915F43ED766D4C76CE57067C2F5517CE"
+  },
+  {
+    "effect_id": 301,
+    "source": "OnePlus soft:109",
+    "reason": "WeChat pat: factory soft confirmation",
+    "old_bytes": 715,
+    "old_sha256": "0EB70C9922BECAC051618C3931FF2E21521A1F2B15706344F9018FB84C2466B5",
+    "new_bytes": 738,
+    "new_sha256": "68037812ED8E3B2B16760419F710348FEEA2EA67551C73726EB259742C13AE39"
+  },
+  {
+    "effect_id": 405,
+    "source": "OnePlus soft:2",
+    "reason": "answer 1: weak factory answer",
+    "old_bytes": 756,
+    "old_sha256": "88C23DE016E6450ECEAE4D9902279D943A24D68306F9E524D7B9D6A32C56AAD9",
+    "new_bytes": 723,
+    "new_sha256": "B97EC86689785B37FF64AD75C8D93BA1579F4DBC8C55978F1FC562CA17B2E44A"
+  },
+  {
+    "effect_id": 406,
+    "source": "OnePlus soft:309",
+    "reason": "answer 2: strong factory answer",
+    "old_bytes": 756,
+    "old_sha256": "B82F1B6A5E5281E21F955D2E40D1FB7D49BF1835BF13BFD18CFDC20E99CEBF07",
+    "new_bytes": 779,
+    "new_sha256": "989708372781F6A9F0472CBD269F5A28915F43ED766D4C76CE57067C2F5517CE"
+  },
+  {
+    "effect_id": 408,
+    "source": "OnePlus def:107",
+    "reason": "dislike: preserve two-pulse negative feedback",
+    "old_bytes": 942,
+    "old_sha256": "C00D792658A8EBE4F47D9963A972AEB78E27E525F631CAE568144EEE06DD5877",
+    "new_bytes": 1043,
+    "new_sha256": "96FD510CA8EC994743D49A16A599F656DBE9970D0F5B6F3071A4FEEEF5E2BF7E"
+  },
+  {
+    "effect_id": 410,
+    "source": "OnePlus soft:109",
+    "reason": "generic long press: factory soft confirmation",
+    "old_bytes": 750,
+    "old_sha256": "6F52CD41D81929F9E50A0727E7853092D42E39AAC0828B94DA8B0ED4DDE803EA",
+    "new_bytes": 738,
+    "new_sha256": "68037812ED8E3B2B16760419F710348FEEA2EA67551C73726EB259742C13AE39"
+  },
+  {
+    "effect_id": 10001,
+    "source": "e_10001_fingerprint_full.bin",
+    "reason": "approved full effect-5 notification",
+    "old_bytes": 717,
+    "old_sha256": "5A3C455CC97480115EE50FA55ECBDF2021BC6A93E46C3F1CDD6E731BA74A87B0",
+    "new_bytes": 1552,
+    "new_sha256": "D4D74006428873B5AF0BE01F76FE0E6F6AC9E0FCB53E237F003C15C75318D136"
+  },
+  {
+    "effect_id": 10002,
+    "source": "d_162_135hz_deep.bin",
+    "reason": "gesture pull compatibility alias",
+    "old_bytes": 735,
+    "old_sha256": "42111501A3CB72DBE2189AE02AF94F9B81B5915444316629B02D640543109414",
+    "new_bytes": 432,
+    "new_sha256": "E4D24CE693304B33C25D4260AF5E208B4DEC14A06370CEF954B0CDE7AA924541"
+  },
+  {
+    "effect_id": 10003,
+    "source": "e_163_fingerprint_release.bin",
+    "reason": "gesture release compatibility alias",
+    "old_bytes": 559,
+    "old_sha256": "996EEF99DA6602FC6CBAD469AA3B66C0885755570C0805F89C29D2EBE591195C",
+    "new_bytes": 496,
+    "new_sha256": "82651E1B520104AB14A508DFB0B8419BFA4D479B54EC6FD45966726F1F6BAC62"
+  }
+]

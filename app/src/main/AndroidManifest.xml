@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <permission
+        android:name="oplus.permission.OPLUS_COMPONENT_SAFE"
+        android:protectionLevel="dangerous" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent>
+    </queries>
+
+    <application
+        android:allowBackup="false"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:directBootAware="true"
+        android:hasCode="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".CorePatchActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".LtpoTestActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".DiagnosticsActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".GameOptimizationActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".SchedulerLogActivity"
+            android:exported="false"
+            android:parentActivityName=".GameOptimizationActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".monitor.PerformanceMonitorActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".monitor.OverlayPickerActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:finishOnTaskLaunch="true"
+            android:theme="@style/OverlayPickerTheme" />
+
+        <service
+            android:name=".monitor.ProbeMonitorService"
+            android:exported="false"
+            android:foregroundServiceType="specialUse"
+            android:stopWithTask="false">
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="用户主动开启的只读 Root 性能与调度监视" />
+        </service>
+
+        <service
+            android:name=".monitor.DailyPowerMonitorService"
+            android:directBootAware="true"
+            android:exported="false"
+            android:foregroundServiceType="specialUse"
+            android:stopWithTask="false">
+            <property
+                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+                android:value="用户主动开启的低频双电芯耗电统计" />
+        </service>
+
+        <activity
+            android:name=".deviceparams.DeviceParamsActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+
+        <provider
+            android:name=".deviceparams.ConfigProvider"
+            android:authorities="local.mio.op13hyperosfix.deviceparams.config"
+            android:enabled="true"
+            android:exported="true"
+            android:grantUriPermissions="false" />
+
+        <provider
+            android:name=".wlancompat.MacProvider"
+            android:authorities="local.mio.op13hyperosfix.wlancompat.mac"
+            android:directBootAware="false"
+            android:enabled="true"
+            android:exported="true"
+            android:grantUriPermissions="false" />
+
+        <receiver
+            android:name=".RootBootstrapReceiver"
+            android:directBootAware="true"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.DEVICE_POWER">
+            <intent-filter>
+                <action android:name="local.mio.op13hyperosfix.action.LSPOSED_BOOTSTRAP" />
+                <action android:name="local.mio.op13hyperosfix.action.TOUCH_SAMPLING" />
+                <action android:name="local.mio.op13hyperosfix.action.GAME_APPLY_STATE" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".DiagnosticReceiver"
+            android:directBootAware="true"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="local.mio.op13hyperosfix.action.HOOK_DIAGNOSTIC" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data android:name="xposedmodule" android:value="true" />
+        <meta-data android:name="xposedscope" android:resource="@array/module_scope" />
+        <meta-data android:name="xposeddescription" android:value="@string/xposed_desc" />
+        <meta-data android:name="xposedinit" android:value="local.mio.op13hyperosfix.HookEntry" />
+        <meta-data android:name="xposedminversion" android:value="93" />
+    </application>
+</manifest>

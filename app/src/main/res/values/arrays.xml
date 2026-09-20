@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="module_scope">
+        <item>android</item>
+        <item>com.android.systemui</item>
+        <item>com.android.settings</item>
+        <item>com.android.bluetooth</item>
+        <item>com.miui.securitycenter</item>
+        <item>com.miui.securitymanager</item>
+        <item>com.miui.notes</item>
+        <item>org.ifaa.aidl.manager</item>
+        <item>com.android.providers.downloads</item>
+        <item>com.miui.huanji</item>
+        <item>com.miui.cloudbackup</item>
+        <item>com.qualcomm.qti.cne</item>
+        <item>com.finshell.wallet</item>
+        <item>com.heytap.tas</item>
+        <item>com.unionpay.tsmservice</item>
+        <item>com.oplus.eid</item>
+        <item>com.android.se</item>
+        <item>com.android.nfc</item>
+        <item>com.miui.tsmclient</item>
+    </string-array>
+</resources>

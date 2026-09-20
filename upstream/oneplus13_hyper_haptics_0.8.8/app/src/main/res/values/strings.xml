@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">一加13澎湃震动增强</string>
+    <string name="xposed_desc">面向一加13移植版 HyperOS：补齐小米专属 RTP、OS4 原生强度状态机、通知与指纹触感，并按视频首帧修复长 RTP 时序。宣传视频播放时需要 Root，平时不启动辅助进程；推荐作用域为 android、系统界面和设置。</string>
+</resources>

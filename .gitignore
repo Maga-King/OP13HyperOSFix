@@ -1,0 +1,35 @@
+# Local configuration and credentials
+local.properties
+.env
+.env.*
+*.jks
+*.keystore
+*.p12
+*.pfx
+key.properties
+keystore.properties
+
+# IDE and build output
+.idea/
+*.iml
+.gradle/
+.kotlin/
+build/
+.cxx/
+.externalNativeBuild/
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+*.hprof
+*.log
+*.bak
+*.tmp
+
+# Intermediate kernel build output; keep packaged .ko binaries
+kernel-src/.*.cmd
+kernel-src/*.o
+kernel-src/*.mod
+kernel-src/*.mod.c
+kernel-src/Module.symvers
+kernel-src/modules.order
